@@ -1,0 +1,60 @@
+/* style.css */
+
+#devhiv-contactform p {
+    margin-bottom: 20px;
+}
+
+#devhiv-contactform label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dh-form-title{
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 120%;
+    margin-bottom: 60px;
+}
+
+#devhiv-contactform input[type="text"],
+#devhiv-contactform input[type="email"],
+#devhiv-contactform input[type="tel"],
+#devhiv-contactform input[type="file"],
+#devhiv-contactform textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+}
+
+#devhiv-contactform input[type="submit"] {
+    background-color: #916ef0;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    margin: 10px 0px 0px;
+    padding: 14px 110px 10px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: fit-content;
+    cursor: pointer;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    transition: 0.4s ease-in-out;
+}
+
+#devhiv-contactform input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#devhiv-contactform textarea:focus, input:focus{
+        outline: none;
+}
+
